@@ -4,7 +4,8 @@
   "description": "utils",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf ./build && tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/RUPESH1439/generators/issues"
   },
-  "homepage": "https://github.com/RUPESH1439/generators#readme"
+  "homepage": "https://github.com/RUPESH1439/generators#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "rimraf": "^4.4.1",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
 }

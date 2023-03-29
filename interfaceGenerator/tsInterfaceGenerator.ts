@@ -1,24 +1,6 @@
-const testObj = {
-    x: 'hello',
-    y: 'world',
-    z: 2,
-    a: {
-        b: 'sdsf',
-        c: 232,
-        d: true,
-        e: {
-            t: true
-        }
-    }
-}
+export const getType = (obj:any, innerType = false, level = 1) => {
 
-const getVariableName = (variable: any) => Object.keys({
-    testObj
-})[0]
-
-const getType = (obj, innerType = false, level = 1) => {
-
-    let type = `interface I${getVariableName(obj)} {\n`
+    let type = `interface Interface {\n`
 
     if (innerType) {
         type = `{\n`
