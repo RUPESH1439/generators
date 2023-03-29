@@ -1,0 +1,22 @@
+{
+  "name": "generators",
+  "version": "1.0.0",
+  "description": "utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RUPESH1439/generators.git"
+  },
+  "keywords": [
+    "generators"
+  ],
+  "author": "Rupesh Shrestha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RUPESH1439/generators/issues"
+  },
+  "homepage": "https://github.com/RUPESH1439/generators#readme"
+}
